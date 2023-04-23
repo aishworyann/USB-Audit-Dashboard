@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    aish:
+      email: aishworyann@gmail.com
+      name: Aishworyann
+      password: $2b$12$hoIx5O3pdA9NMA433eDLzOBEFi54lL7O3ND55AdYHpkNxdrLJTLBG # To be replaced with hashed password
+    skansal:
+      email: skansal801@gmail.com
+      name: Shrey Kansal
+      password: $2b$12$.MBKx3Nn/RdFDSY70TgSNurhhTyyWBsRMdGx.lJ2XWDj8Ja/drcjS # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - aishworyann@gmail.com
