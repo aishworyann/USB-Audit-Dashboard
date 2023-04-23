@@ -10,7 +10,7 @@ import altair as alt
 from time import strftime
 import time
 # --- USER AUTHENTICATION ---
-with open('./config.yaml') as file:
+with open('config.yaml') as file:
     config = yaml.load(file, Loader=yaml.SafeLoader)
 authenticator = stauth.Authenticate(
     config['credentials'],
